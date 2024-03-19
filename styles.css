@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
+
+
+body{
+    background-color:  hsl(217, 54%, 11%);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.container{
+    display: grid;
+    background-color: hsl(216, 50%, 16%);
+    /* height: 800px; */
+    width: 400px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.top-image{
+    height: 350px;
+    border-radius: 10px;
+}
+
+.bottom h3{
+    color:  hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0;
+}
+
+.bottom h3:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.bottom p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.bottom h2{
+    font-size: 19px;
+    color:  hsl(178, 100%, 50%);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    padding-left: 4px;
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+    height: 0.2px;
+}
+
+.para{
+    display: inline;
+}
+
+.bottom-bot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.bottom-image{
+    width: 40px;
+}
+
+.bot-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.para2{
+    display: inline;
+    line-height: 5px;
+}
+
+.text{
+    color: hsl(0, 0%, 100%);
+}
+
+.text:hover{
+    color: hsl(178, 100%, 50%);
+}
